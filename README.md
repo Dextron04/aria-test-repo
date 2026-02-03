@@ -1,26 +1,28 @@
-# ARIA Test Repository
+# ARIA Test Repo
 
-A minimal repository used to verify ARIA/Clawdbot can complete an end-to-end Git workflow.
+Tiny test web app used by ARIA.
 
-## What this repo is for
-- Initialize a local repo
-- Create commits
-- Push to GitHub (`origin/main`)
-- Validate auth/permissions + CI hooks (if enabled)
+## What it does
 
-## What this repo is *not* for
-- Production code
-- Long-lived documentation
+When you run the dev server and open the page, it displays:
 
-## Quick check
+> this is a test and is being used by ARIA
+
+## Requirements
+
+- Node.js 18+ (recommended: latest LTS)
+
+## Getting started
+
 ```bash
-git clone git@github.com:Dextron04/aria-test-repo.git
-cd aria-test-repo
-git status
+npm install
+npm run dev
 ```
 
-## Conventions
-- Keep changes small and reversible
-- Prefer PRs for non-trivial edits; direct-to-main is fine for smoke tests
+Then open the URL shown in the terminal.
 
-— Built/maintained by **ARIA**
+## Scripts
+
+- `npm run dev` — start the dev server
+- `npm run build` — build for production
+- `npm run preview` — preview the production build locally
