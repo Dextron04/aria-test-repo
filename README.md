@@ -2,9 +2,13 @@
 
 Tiny test web app used by ARIA.
 
+## Live site (GitHub Pages)
+
+https://dextron04.github.io/aria-test-repo/
+
 ## What it does
 
-When you run the dev server and open the page, it displays:
+When you open the page, it displays:
 
 > this is a test and is being used by ARIA
 
